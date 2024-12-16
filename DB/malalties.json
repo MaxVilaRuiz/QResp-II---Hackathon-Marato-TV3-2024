@@ -1,0 +1,73 @@
+[
+    {
+        "_id": "insuficiencia",
+        "name": "Insuficiencia",
+        "pt": 8,
+        "diagnostic": "Angiografia coronaria +, anàlisi de sang, ecocardiograma",
+        "recomendation": "Diurètics (consultar altres MPI per si no són compatibles)"
+    },
+    
+    {
+        "_id": "trombolisme",
+        "name": "Trombolisme",
+        "pt": 8,
+        "diagnostic": "Angiotomografia de tòrax + i/o arteriografia",
+        "recomendation": "Heparina/acenocumarol (consultar MPIs i compatibilitat), tractament fibronolític (si és molt severa)"
+    },
+
+    {
+        "_id": "toxics",
+        "name": "Toxics",
+        "pt": 11,
+        "diagnostic": "Probes d'imatges de pulmons +, anàlisi de sang, Endoscòpia (consultar compatibilitat amb altres MPIs)",
+        "recomendation": "Teràpia d'oxigen"
+    },
+
+    {
+        "_id": "refluxe",
+        "name": "Refluxe",
+        "pt": 9,
+        "diagnostic": "PHmetria amb impedància +, nanometria esofàgica d'alta resolució, comprovar nivalls de ferro en sang",
+        "recomendation": "No fumar / beure, perdre pes (en cas de sobrepes), Funduplicatura total/parcial (consultar compatibilitat amb altres MPIs)"
+    },
+
+    {
+        "_id": "abdomen",
+        "name": "Abdomen",
+        "pt": 10,
+        "diagnostic": "Hemograma+, probes de funció hepà tica i renal",
+        "recomendation": "líquids intravenosos +, intervenció quirúrgica (consultar compatibilitat amb altres MPIs)"
+    },
+
+    {
+        "_id": "pneumotorax",
+        "name": "Pneumotorax",
+        "pt": 7,
+        "diagnostic": "radiografia de tòrax +, TAC (en cas que s'hagi tingut abans (consultar compatibilitat amb altrs MPIs))",
+        "recomendation": "drenar l'aire +, connectar a l'aspiració durant unes hores"
+    },
+
+    {
+        "_id": "contusio",
+        "name": "Contusio",
+        "pt": 5,
+        "diagnostic": "radiografia de tòrax+, mesurar oxigen en sang (pulsioxímetre)",
+        "recomendation": "Oxigenoteràpia amb ventilació mecànica +, Analgèsics (consultar compatibilitat amb altres MPIs)"
+    },
+
+    {
+        "_id": "exacerbacio",
+        "name": "Exacerbacio",
+        "pt": 7,
+        "diagnostic": "Examen de sang, broncoscòpia +, ressonància magnètica del tòrax",
+        "recomendation": "En cas de tenir nivell d'oxigen en sang baix fer oxigenoteràpia, altrament fer rehabilitació pulmonar"
+    },
+
+    {
+      "_id": "pneumonia",
+      "name": "Pneumonia",
+      "pt": 8,
+      "diagnostic": "Radiografia del tòrax, probes per veure la presència d'altres gèrmens",
+      "recomendation": "Tractament per pacients Immunosuprimits: \nSi PCR + : Oseltamivir: 75 mg cada 12 hores per via oral.\nSi hi ha infecció bacteriana: Piperacilina/Tazobactam: 4 g/0,5 g cada 8 hores intravenós.\nAltrament: Cefalosporina 3ª generació + Levofloxacina: 500 mg cada 24 hores.\nSi se sospita de CMV: Ganciclovir: 5 mg/kg cada 12 hores intravenós.\nSi se sospita pneumonia per fongs: Sulfametoxazol/Trimetoprim: 800/160 mg cada 12 hores via oral, afegir àcid fòlic\nTractament per pacients Immunocompetents: \nSi PCR + : Administrar HBPM (Heparina de Baix Peso Molecular): 0,5-0,9 mL segons el pes corporal.\nSi Metilprednisolona: En casos específicos, administrar ½-1 mg/kg/día intravenoso.a infecció bacteriana: Cefalosporina 3ª generació + Levofloxacina: 500 mg cada 24 hores." 
+  }
+]

@@ -1,0 +1,46 @@
+.main_register {
+    display: grid;
+    margin-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.title_register {
+    text-align: center;
+    width: 30rem;
+}
+
+.form_text {
+    margin-bottom: .4rem;
+    margin-top: 0rem;
+}
+
+.btn_register {
+    height: 2.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .main_register {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem; 
+        padding-bottom: 3rem;
+    }
+
+    .title_register {
+        width: 100%;
+        padding: 0 1rem; 
+        text-align: center;
+    }
+
+    .btn_register {
+        height: 2.25rem; 
+        width: 100%; 
+    }
+
+    .form_text {
+        margin-bottom: 0.6rem;
+        margin-top: 0.2rem;
+    }
+}

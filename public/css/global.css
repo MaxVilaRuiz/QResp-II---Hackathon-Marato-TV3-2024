@@ -1,0 +1,168 @@
+:root {
+    --main-color: #48CFCB;
+    --text-color: #229799;
+    --background-color: #F5F5F5;
+    --button-color: #1d4ed8;
+    --font-family-primary: "Nunito", sans-serif;
+    --font-family-secondary: "Rubik", sans-serif;
+}
+
+
+/* Structures */
+body {
+    padding-left: 17.5rem;
+    padding-right: 17.5rem;
+    background-color: var(--background-color);
+}
+header {
+    height: 6rem;
+    background-color: var(--main-color);
+    display: flex;
+}
+main {
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-left: -1rem;
+    gap: 2rem;
+}
+.redirection {
+    display: flex;
+    justify-content: center;
+    margin-right: 2.5rem;
+    gap: .75rem;
+}
+
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+form {
+    background-color: white;
+    border: solid 1px black;
+}
+a {
+    font-family: var(--font-family-primary);
+    text-decoration: none;
+    color: #3b82f6;
+}
+a:hover {
+    color: var(--button-color);
+}
+
+
+/* Buttons */
+input[type="name"], input[type="email"], input[type="password"] {
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db;
+    color: #1f2937;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.625rem;
+    outline: none;
+    box-sizing: border-box;
+}
+input[type="name"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+button {
+    color: #ffffff;
+    background-color: var(--button-color);
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background-color: #1e40af;
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.3);
+}
+
+
+/* Texts */
+h1 {
+    font-family: var(--font-family-primary);
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    align-items: center;
+}
+h2 { 
+    font-family: var(--font-family-secondary);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+p {
+    font-family: var(--font-family-primary);
+}
+.text_redirection {
+    margin-top: .75rem;
+}
+
+
+
+@media (max-width: 768px) {
+    /* Structures */
+    body {
+        padding-left: 1rem; 
+        padding-right: 1rem;
+    }
+    header {
+        height: 4rem; 
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+    }
+    main {
+        margin-top: 1rem;
+        margin-left: 0;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    /* Texts */
+    h1 {
+        font-size: 1.75rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.5rem; 
+        text-align: center;
+    }
+    p {
+        font-size: 0.875rem;
+    }
+
+    /* Labels */
+    form {
+        padding: 1rem; 
+        border: none; 
+    }
+    label {
+        font-size: 0.75rem;
+    }
+
+    /* Buttons */
+    input[type="name"], input[type="email"], input[type="password"] {
+        font-size: 0.75rem;
+        padding: 0.5rem;
+    }
+    button {
+        font-size: 0.75rem;
+        padding: 0.5rem; 
+    }
+}

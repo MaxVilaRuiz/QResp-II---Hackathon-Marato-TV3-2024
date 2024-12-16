@@ -1,0 +1,27 @@
+{
+  "name": "qresp",
+  "version": "1.0.0",
+  "description": "Paquet de backend del projecte QRESP.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxVilaRuiz/QResp.git#main"
+  },
+  "author": "UPC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxVilaRuiz/QResp/issues"
+  },
+  "homepage": "https://github.com/MaxVilaRuiz/QResp/tree/main#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.0",
+    "xml2js": "^0.6.2"
+  }
+}
