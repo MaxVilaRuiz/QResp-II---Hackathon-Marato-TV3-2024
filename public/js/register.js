@@ -12,5 +12,7 @@ function register() {
             username: email,
             password: password
         }
+
+        localStorage.setItem("hola", credentials);
     }
 }
