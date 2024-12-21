@@ -1,9 +1,18 @@
+// Title Configuration
+let username = localStorage.getItem('actual_user');
+document.getElementById('title_web').innerHTML = username;
+document.getElementById('title_userpage').innerHTML = username;
+
+
+// "Canviar Símptomes" Button
 document.getElementById('btn1').addEventListener('click', function(event) {
     event.preventDefault();
     document.getElementById('btn1').style.display = 'none';
     document.getElementById('btn2').style.display = 'block';
 })
 
+
+// "Actualitzar" Button
 document.getElementById('btn2').addEventListener('click', function(event) {
     event.preventDefault();
     document.getElementById('btn2').style.display = 'none';
@@ -125,7 +134,7 @@ document.getElementById('btn2').addEventListener('click', function(event) {
 });
 
 
-// Posar el diagnòstic i tractament corresponents de la base de dades.
+// Diagnostic and the Treatment
 let diagnostic = document.getElementById('diagnostic');
 diagnostic.innerHTML = "";
 let tractament = document.getElementById('tractament');

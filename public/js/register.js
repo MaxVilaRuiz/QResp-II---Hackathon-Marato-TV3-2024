@@ -14,6 +14,7 @@ function register() {
             password: password
         }
         
+        localStorage.setItem('actual_user', name);
         localStorage.setItem(credentials.id, JSON.stringify(credentials));
         window.location.href = "/public/html/userpage.html";
     }
